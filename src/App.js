@@ -48,6 +48,11 @@ function App() {
     "name": "Spider Man: Far from Home",
     "genre": ["Super Hero", "Action"],
     "year": "2019"
+  },{
+    "id":10,
+    "name": "In Time",
+    "genre": ["Sci-Fi", "Drama"],
+    "year": "2011"
   }]
 
   return (
