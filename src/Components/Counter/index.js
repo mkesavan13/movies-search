@@ -39,7 +39,7 @@ export default class Counter extends React.PureComponent {
         console.log("Component re-rendered");
         return (
             <div className="counter-component">
-                <h3 className="component-type">Pure Component</h3>
+                <h3 className="component-type">PureComponent</h3>
                 <span>To ensure this is a pure component, please open browser console and try clicking on Increment/Decrement buttons and when you press reset when it is zero already. You may not see the console log statement</span>
                 <h2>Counter: {this.state.counter}</h2>
                 <button className="theme-button" onClick={this.increment.bind(this)}>Increment</button>
