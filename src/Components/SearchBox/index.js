@@ -6,7 +6,7 @@ function SearchBox({placeholder, initialData}) {
     const [movieList, setMovieList] = useState(initialData);
     const [searchText, setSearchText] = useState("");
 
-    const searchMovies = (event) => {
+    const searchMovies = (event) => { 
         if(event){
             event.preventDefault();
         }
