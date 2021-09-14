@@ -6,11 +6,11 @@ function SearchBox({placeholder, initialData}) {
     const [movieList, setMovieList] = useState(initialData);
     const [searchText, setSearchText] = useState("");
 
-    let searchMovies = (event) => {
+    const searchMovies = (event) => {
         if(event){
             event.preventDefault();
         }
-        let list = initialData.filter(movie => movie.name.toLowerCase().includes(searchText.toLowerCase()));
+        const list = initialData.filter(movie => movie.name.toLowerCase().includes(searchText.toLowerCase()));
         setMovieList(list);
     }
     return (
