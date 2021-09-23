@@ -27,4 +27,4 @@ You will also see any lint errors in the console.
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
-Your app is ready to be deployed!
+Your app is ready to be deployed! 
